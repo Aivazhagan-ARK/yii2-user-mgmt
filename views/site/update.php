@@ -8,7 +8,7 @@ use frontend\models\User;
 /**
  * @var yii\web\View $this
  * @var auth\models\User $model
- * @var yii\widgets\ActiveForm $form
+ * @var yii\widgets\ActivedasdForm $form
  */
 
 $this->title = 'Update Profile';
@@ -18,6 +18,7 @@ $this->params['breadcrumbs'][] = ['label' =>'Users', 'url' => ["/$ctrler/index"]
 $this->params['breadcrumbs'][] ='Update';
 ?>
 <?php $form = ActiveForm::begin(); ?>
+asdasdads
 <div class="panel panel-primary">
 	<div class="panel-heading">
 		<h3 class="panel-title">

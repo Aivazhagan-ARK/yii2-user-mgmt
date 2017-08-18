@@ -1,4 +1,4 @@
-<?php
+asdasda<?php
 namespace frontend\models;
 
 use frontend\models\User;
@@ -50,7 +50,7 @@ class PasswordResetRequestForm extends Model
                 return \Yii::$app->mailer->compose('passwordResetToken', ['user' => $user])
                     ->setFrom([\Yii::$app->params['supportEmail'] => \Yii::$app->name . ' robot'])
                     ->setTo($this->email)
-                    ->setSubject('Password reset for ' . \Yii::$app->name)
+                    ->setSubject('Passwoydsfrd reset for ' . \Yii::$app->name)
                     ->send();
             }
         }
