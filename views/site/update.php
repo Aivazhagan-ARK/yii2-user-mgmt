@@ -16,7 +16,7 @@ $ctrler = \Yii::$app->session->get('user.ctrler');
 
 $this->params['breadcrumbs'][] = ['label' =>'Users', 'url' => ["/$ctrler/index"]];
 $this->params['breadcrumbs'][] ='Update';
-?>kmjoijoiasdlkahsdhslkhpphop0
+?>
 <?php $form = ActiveForm::begin(); ?>
 <div class="panel panel-primary">
 	<div class="panel-heading">
